@@ -6,7 +6,6 @@ import Service from './service';
 import { getAttendanceList } from '../../services/api/c2m2Client';
 
 const services = getAttendanceList();
-console.log(getAttendanceList);
 
 class Services extends Component {
     render () {

@@ -4,10 +4,12 @@ import { createStackNavigator, createDrawerNavigator, createAppContainer } from 
 
 import InstallsScreen from './src/screens/installs-screen';
 import AttendanceScreen from './src/screens/attendance-screen';
+import BillsScreen from './src/screens/bills-screen';
 
 const StackNavigator = createStackNavigator ({
     Attendance: {screen: AttendanceScreen},
     Installs: {screen: InstallsScreen},
+    Bills: {screen: BillsScreen}
 });
 
 const Drawer = createDrawerNavigator ({

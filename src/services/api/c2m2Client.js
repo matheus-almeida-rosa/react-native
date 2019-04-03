@@ -51,3 +51,14 @@ export function getAttendanceList() {
         }
     ];
 };
+
+export function getPendingDebts() {
+    return [
+        {
+            date: 'jan 2019'
+        },
+        {
+            date: 'fev 2019'
+        }
+    ]
+};
